@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="game-container">
+    <h1>Guessing Game</h1>
+    <p>Guess a number between 1 and 100:</p>
+    <input type="text" id="guessInput" />
+    <button onclick="checkGuess()">Submit Guess</button>
+    <p id="result"></p>
+
+    <div class="card-container" id="cardContainer">
+      <div class="card" id="card">
+        <div class="card-face card-front">
+          <p>Hidden Number</p>
+        </div>
+        <div class="card-face card-back">
+          <p id="hiddenNumberDisplay"></p>
+        </div>
+      </div>
+    </div>
+
+    <button onclick="playAgain()">Play Again</button>
+  </div>
+
+
+  <script type="text/javascript" src="game.js">
+
+  </script>
+</body>
+
+</html>
