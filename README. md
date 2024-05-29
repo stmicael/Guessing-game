@@ -1,0 +1,64 @@
+# Guessing Game
+This is a simple guessing game where the player tries to guess a randomly generated number between 1 and 100. The player has three attempts to guess the correct number. After the third attempt, or upon guessing the correct number, a card flips to reveal the hidden number. The game also includes a "Play Again" feature to reset and start a new game.
+
+## Features
+Randomly generates a number between 1 and 100.
+Allows the user to make guesses with input validation.
+Provides feedback on whether the guess is too low, too high, or correct.
+Limits the number of guesses to three attempts.
+Reveals the hidden number with a card flip animation.
+Includes a "Play Again" button to reset the game.
+
+### Technologies Used
+HTML
+CSS
+JavaScript
+
+### Getting Started
+To get started with this project, simply clone the repository and open the index.html file in your web browser.
+
+### Prerequisites
+No prerequisites are required for this project. Any modern web browser will suffice.
+
+### Installation
+Clone the repository:
+
+git clone https://github.com/yourusername/guessing-game.git
+Navigate to the project directory:
+cd guessing-game
+Open the index.html file in your preferred web browser.
+Usage
+Open the index.html file in a web browser.
+Enter a number between 1 and 100 in the input field.
+Click the "Submit Guess" button to submit your guess.
+The game will provide feedback on whether your guess is too low, too high, or correct.
+If the correct number is guessed or the attempts run out, the card will flip to reveal the hidden number.
+Click the "Play Again" button to start a new game.
+
+## Code Explanation
+### HTML Structure
+The HTML file contains the structure of the game, including the input field for guesses, buttons for submitting guesses and playing again, and the card that flips to reveal the hidden number.
+
+### CSS Styling
+The CSS file defines styles for the game elements, including the card and its flipping animation.
+
+### JavaScript Logic
+The JavaScript file contains the game logic, including functions for checking guesses, providing feedback, and handling the card flip animation.
+
+resetGame(): Initializes the game by generating a new random number, resetting guesses, and updating the UI elements.
+checkGuess(): Validates the user's guess, updates the remaining guesses, and provides feedback.
+disableInput(): Disables the input field and submit button after the game ends.
+revealHiddenNumber(): Reveals the hidden number by flipping the card.
+playAgain(): Resets the game to start a new round.
+Example
+
+### Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+### License
+This project is licensed under the MIT License.
+
+### Contact
+For any inquiries, please contact:
+
+Mbaoma Emeka Michael - stmicael4real@gmail.com
